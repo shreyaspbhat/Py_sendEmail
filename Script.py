@@ -316,7 +316,7 @@ for i in range(0, total, 1):
 
     file1.close()
 
-    l = """mailx -s "To reschedule patching of PROD server" -a "From: Unix Patch Management <unix-patch-management@bayer.com>" -a "Content-type: text/html" -c unix-patch-management@bayer.com,naveen.trivedi.ext@bayer.com,shraddha.dandnaik.ext@bayer.com,shreyas.p@capgemini.com. """
+    l = """mailx -s "To reschedule patching of PROD server" -a "From: Unix Patch Management <unix-patch-management@xxx.com>" -a "Content-type: text/html" -c unix-patch-management@xxx.com,naveen@gmail.com. """
     m = str(owner1_name)
     # o = ","
     # p = second_owner
