@@ -141,7 +141,7 @@ for i in range(0, total, 1):
     xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
-    <meta http-equiv=Content-Type content="text/html; charset=us-ascii">
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=us-ascii">
     <meta name=Generator content="Microsoft Word 15 (filtered medium)">
     <style>
         <!--
@@ -156,6 +156,11 @@ for i in range(0, total, 1):
             panose-1: 2 15 5 2 2 2 4 3 2 4;
         }
 
+        @font-face {
+            font-family: Cambria;
+            panose-1: 2 4 5 3 5 4 6 3 2 4;
+        }
+
         /* Style Definitions */
         p.MsoNormal,
         li.MsoNormal,
@@ -165,18 +170,6 @@ for i in range(0, total, 1):
             font-size: 11.0pt;
             font-family: "Calibri", sans-serif;
             mso-fareast-language: EN-US;
-        }
-
-        h2 {
-            mso-style-priority: 9;
-            mso-style-link: "Heading 2 Char";
-            mso-margin-top-alt: auto;
-            margin-right: 0cm;
-            mso-margin-bottom-alt: auto;
-            margin-left: 0cm;
-            font-size: 18.0pt;
-            font-family: "Calibri", sans-serif;
-            font-weight: bold;
         }
 
         a:link,
@@ -193,48 +186,10 @@ for i in range(0, total, 1):
             text-decoration: underline;
         }
 
-        p.MsoPlainText,
-        li.MsoPlainText,
-        div.MsoPlainText {
-            mso-style-priority: 99;
-            mso-style-link: "Plain Text Char";
-            margin: 0cm;
-            margin-bottom: .0001pt;
-            font-size: 11.0pt;
-            font-family: "Calibri", sans-serif;
-            mso-fareast-language: EN-US;
-        }
-
-        p {
-            mso-style-priority: 99;
-            mso-margin-top-alt: auto;
-            margin-right: 0cm;
-            mso-margin-bottom-alt: auto;
-            margin-left: 0cm;
-            font-size: 12.0pt;
-            font-family: "Times New Roman", serif;
-        }
-
         span.EmailStyle17 {
             mso-style-type: personal-compose;
             font-family: "Calibri", sans-serif;
             color: windowtext;
-        }
-
-        span.Heading2Char {
-            mso-style-name: "Heading 2 Char";
-            mso-style-priority: 9;
-            mso-style-link: "Heading 2";
-            font-family: "Calibri", sans-serif;
-            mso-fareast-language: EN-IN;
-            font-weight: bold;
-        }
-
-        span.PlainTextChar {
-            mso-style-name: "Plain Text Char";
-            mso-style-priority: 99;
-            mso-style-link: "Plain Text";
-            font-family: "Calibri", sans-serif;
         }
 
         .MsoChpDefault {
@@ -264,30 +219,36 @@ for i in range(0, total, 1):
 
 <body lang=EN-IN link="#0563C1" vlink="#954F72">
     <div class=WordSection1>
-        <h2>Dear Linux customer, <o:p></o:p>
-        </h2>
-        <p>You are receiving this email because you are registered in our database as a responsible person for a
-            system(s) that has been identified as requiring patching during the second Linux patching cycle of
-            2021.&nbsp; Below you will find details of this patching cycle.&nbsp; We appreciate your cooperation on this
-            requirement. <o:p></o:p>
-        </p>
-        <p class=MsoNormal><b>Affected Systems</b>:<o:p></o:p>
-        </p>
-        <p class=MsoNormal>
-            <o:p>&nbsp;</o:p>
-        </p>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>Dear Customer,<o:p></o:p></span></p>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>This is to inform you that, as Freeze
+                period has been started from 20<sup>th</sup> Dec 2021, so &nbsp;during this we are unable to patch any
+                <span style='background:yellow;mso-highlight:yellow'>PROD</span> servers. So kindly check and log in to
+                Patch Dashboard and update &nbsp;new downtime after 15<sup>th</sup> Jan 2022. &nbsp;Please make sure
+                that we have to complete this Patching cycle up to 10<sup>th</sup> Feb 2022, so kindly plan and update
+                the downtime accordingly.<o:p></o:p></span></p>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+                <o:p>&nbsp;</o:p>
+            </span></p>
         <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=0
-            style='width:208.0pt;border-collapse:collapse'>
+            style='width:205.0pt;border-collapse:collapse'>
             <tr style='height:14.5pt'>
-                <td width=156 nowrap
-                    style='width:117.0pt;border:solid windowtext 1.0pt;background:#002060;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
-                    <p class=MsoNormal><b><span style='font-size:10.0pt;color:white;mso-fareast-language:EN-IN'>Server
-                                Name<o:p></o:p></span></b></p>
+                <td width=156 nowrap valign=bottom
+                    style='width:117.0pt;border:solid windowtext 1.0pt;background:#ACB9CA;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
+                    <p class=MsoNormal><span style='color:black;mso-fareast-language:EN-IN'>Servername<o:p></o:p></span>
+                    </p>
                 </td>
-                <td width=121 nowrap
-                    style='width:91.0pt;border:solid windowtext 1.0pt;border-left:none;background:#002060;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
-                    <p class=MsoNormal><b><span style='font-size:10.0pt;color:white;mso-fareast-language:EN-IN'>Usage as
-                                per CMDB<o:p></o:p></span></b></p>
+                <td width=117 nowrap valign=bottom
+                    style='width:88.0pt;border:solid windowtext 1.0pt;border-left:none;background:#ACB9CA;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
+                    <p class=MsoNormal><span style='color:black;mso-fareast-language:EN-IN'>Stage<o:p></o:p></span></p>
                 </td>
             </tr>"""]
 
@@ -297,42 +258,14 @@ for i in range(0, total, 1):
 
 
     L3 = ["""</table>
-        <p class=xmsonormal style='margin-bottom:12.0pt'><span lang=EN-US>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
                 <o:p>&nbsp;</o:p>
             </span></p>
-        <p class=xmsonormal style='margin-bottom:12.0pt'><span
-                style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span><span lang=EN-US>
-                <o:p></o:p>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+                <o:p>&nbsp;</o:p>
             </span></p>
-        <p class=xmsonormal><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>The maximum planned
-                interruption of your system is 2 hours, but we expect that your system will be available earlier.
-            </span><span lang=EN-US>
-                <o:p></o:p>
-            </span></p>
-        <p class=xmsonormal><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span><span
-                lang=EN-US>
-                <o:p></o:p>
-            </span></p>
-        <p class=xmsonormal><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span><span
-                lang=EN-US>
-                <o:p></o:p>
-            </span></p>
-        <p class=xmsoplaintext><b><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>Thanks and
-                    Regards</span></b><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>, </span><span
-                lang=EN-US>
-                <o:p></o:p>
-            </span></p>
-        <p class=xmsoplaintext><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>CCP Linux Patching
-                Team </span><span lang=EN-US>
-                <o:p></o:p>
-            </span></p>
-        <p class=xmsonormal><span style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span><span
-                lang=EN-US>
-                <o:p></o:p>
-            </span></p>
-        <p class=MsoNormal>
-            <o:p>&nbsp;</o:p>
-        </p>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>Regards,<o:p></o:p></span></p>
+        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>Linux Team<o:p></o:p></span></p>
     </div>
 </body>
 
@@ -347,17 +280,18 @@ for i in range(0, total, 1):
 
     for (h, n) in zip(server_list, usage_list):
         L11 = ["""<tr style='height:14.5pt'>
-                <td width=128 nowrap valign=bottom
-                    style='width:96.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
-                    <p class=MsoNormal><span style='color:black'>"""]
+                <td width=156 nowrap valign=bottom
+                    style='width:117.0pt;border:solid windowtext 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
+                    <p class=MsoNormal><span style='color:black;mso-fareast-language:EN-IN'>"""]
         file1.writelines(L11)
         file1.writelines(h)
 
-        L12 = ["""<o:p></o:p></span></p>
+        L12 = ["""<o:p></o:p>
+                            </span></p>
                 </td>
                 <td width=117 nowrap valign=bottom
                     style='width:88.0pt;border-top:none;border-left:none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
-                    <p class=MsoNormal><span style='color:black'>"""]
+                    <p class=MsoNormal><span style='color:black;mso-fareast-language:EN-IN'>"""]
         file1.writelines(L12)
         file1.writelines(n)
 
@@ -382,7 +316,7 @@ for i in range(0, total, 1):
 
     file1.close()
 
-    l = """mailx -s "DOWNTIME REQUIRED : Monsanto Linux Server Patching" -a "From: CCP Linux Patching Team<ccpbayerops.in@capgemini.com>" -a "Content-type: text/html" -c shreyas.p@capgemini.com. """
+    l = """mailx -s "test mail,kindly ignore- To reschedule patching of PROD server" -a "From: Unix Patch Management Team<unix-patch-management@bayer.com>" -a "Content-type: text/html" -c unix-patch-management@bayer.com,naveen.trivedi.ext@bayer.com,shraddha.dandnaik.ext@bayer.com,shreyas.p@capgemini.com. """
     m = str(owner1_name)
     # o = ","
     # p = second_owner
@@ -401,3 +335,4 @@ for i in range(0, total, 1):
     time.sleep(15)
 
 ######################################################################  END OF PROGRAM  #############################################################################
+
