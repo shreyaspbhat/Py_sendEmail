@@ -137,8 +137,8 @@ for i in range(0, total, 1):
     file1 = open("mailcontent.txt", "w")
 
     L2 = ["""<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office"
-    xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:x="urn:schemas-microsoft-com:office:excel"
-    xmlns:m="http://schemas.microsoft.com/office/2004/12/omml" xmlns="http://www.w3.org/TR/REC-html40">
+    xmlns:w="urn:schemas-microsoft-com:office:word" xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+    xmlns="http://www.w3.org/TR/REC-html40">
 
 <head>
     <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=us-ascii">
@@ -157,8 +157,8 @@ for i in range(0, total, 1):
         }
 
         @font-face {
-            font-family: Cambria;
-            panose-1: 2 4 5 3 5 4 6 3 2 4;
+            font-family: "Segoe UI";
+            panose-1: 2 11 5 2 4 2 4 2 2 3;
         }
 
         /* Style Definitions */
@@ -169,7 +169,6 @@ for i in range(0, total, 1):
             margin-bottom: .0001pt;
             font-size: 11.0pt;
             font-family: "Calibri", sans-serif;
-            mso-fareast-language: EN-US;
         }
 
         a:link,
@@ -194,7 +193,6 @@ for i in range(0, total, 1):
 
         .MsoChpDefault {
             mso-style-type: export-only;
-            font-family: "Calibri", sans-serif;
             mso-fareast-language: EN-US;
         }
 
@@ -219,36 +217,35 @@ for i in range(0, total, 1):
 
 <body lang=EN-IN link="#0563C1" vlink="#954F72">
     <div class=WordSection1>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>Dear Customer,<o:p></o:p></span></p>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+        <p class=MsoNormal><b><span lang=EN-US>Dear Linux Customer</span></b><span lang=EN-US>,<o:p></o:p></span></p>
+        <p class=MsoNormal><span lang=EN-US>
                 <o:p>&nbsp;</o:p>
             </span></p>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+        <p class=MsoNormal><span lang=EN-US>
                 <o:p>&nbsp;</o:p>
             </span></p>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>This is to inform you that, as Freeze
-                period has been started from 20<sup>th</sup> Dec 2021, so &nbsp;during this we are unable to patch any
-                <span style='background:yellow;mso-highlight:yellow'>PROD</span> servers. So kindly check and log in to
-                Patch Dashboard and update &nbsp;new downtime after 15<sup>th</sup> Jan 2022. &nbsp;Please make sure
-                that we have to complete this Patching cycle up to 10<sup>th</sup> Feb 2022, so kindly plan and update
-                the downtime accordingly.<o:p></o:p></span></p>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+        <p class=MsoNormal><span lang=EN-US>Kindly provide 2 hours downtime window to patch the below server(s):<o:p>
+                </o:p></span></p>
+        <p class=MsoNormal><span lang=EN-US>
                 <o:p>&nbsp;</o:p>
             </span></p>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+        <p class=MsoNormal><span lang=EN-US>
                 <o:p>&nbsp;</o:p>
             </span></p>
         <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=0
-            style='width:205.0pt;border-collapse:collapse'>
+            style='width:184.0pt;border-collapse:collapse'>
             <tr style='height:14.5pt'>
-                <td width=156 nowrap valign=bottom
-                    style='width:117.0pt;border:solid windowtext 1.0pt;background:#ACB9CA;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
-                    <p class=MsoNormal><span style='color:black;mso-fareast-language:EN-IN'>Servername<o:p></o:p></span>
-                    </p>
+                <td width=128 nowrap
+                    style='width:96.0pt;border:solid windowtext 1.0pt;background:#002060;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
+                    <p class=MsoNormal><b><span style='font-size:10.0pt;color:white'>Server Name</span></b><span
+                            style='color:white'> </span><b><span style='font-size:10.0pt;color:white'>
+                                <o:p></o:p>
+                            </span></b></p>
                 </td>
-                <td width=117 nowrap valign=bottom
-                    style='width:88.0pt;border:solid windowtext 1.0pt;border-left:none;background:#ACB9CA;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
-                    <p class=MsoNormal><span style='color:black;mso-fareast-language:EN-IN'>Stage<o:p></o:p></span></p>
+                <td width=117 nowrap
+                    style='width:88.0pt;border:solid windowtext 1.0pt;border-left:none;background:#002060;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
+                    <p class=MsoNormal><b><span style='font-size:10.0pt;color:white'>Usage as per CMDB <o:p></o:p>
+                                </span></b></p>
                 </td>
             </tr>"""]
 
