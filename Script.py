@@ -255,14 +255,44 @@ for i in range(0, total, 1):
 
 
     L3 = ["""</table>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+        <p class=MsoNormal><span lang=EN-US>
                 <o:p>&nbsp;</o:p>
             </span></p>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>
+        <p class=MsoNormal><span lang=EN-US>
                 <o:p>&nbsp;</o:p>
             </span></p>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>Regards,<o:p></o:p></span></p>
-        <p class=MsoNormal><span style='font-family:"Cambria",serif;color:#002060'>Linux Team<o:p></o:p></span></p>
+        <p class=MsoNormal><span lang=EN-US>
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal><b><span style='font-size:10.5pt;font-family:"Segoe UI",sans-serif;background:white'>please
+                    update the downtime in patching dash board.</span></b><b><span lang=EN-US>
+                    <o:p></o:p>
+                </span></b></p>
+        <p class=MsoNormal><span lang=EN-US>
+                <o:p>&nbsp;</o:p>
+            </span></p>
+        <p class=MsoNormal><span lang=EN-US>Kindly confirm if application shutdown is automatic or manual.<o:p></o:p>
+                </span></p>
+        <p class=MsoNormal><span lang=EN-US>In case of manual shutdown, kindly let us know who will be available to
+                stop/start application during the patching window. <o:p></o:p></span></p>
+        <p class=MsoNormal>
+            <o:p>&nbsp;</o:p>
+        </p>
+        <p class=MsoNormal>
+            <o:p>&nbsp;</o:p>
+        </p>
+        <p class=MsoNormal>
+            <o:p>&nbsp;</o:p>
+        </p>
+        <p class=MsoNormal><b>Thanks and Regards</b>, <span lang=EN-US>
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal>CCP Linux Patching Team <span lang=EN-US>
+                <o:p></o:p>
+            </span></p>
+        <p class=MsoNormal>
+            <o:p>&nbsp;</o:p>
+        </p>
     </div>
 </body>
 
