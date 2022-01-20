@@ -156,11 +156,6 @@ for i in range(0, total, 1):
             panose-1: 2 15 5 2 2 2 4 3 2 4;
         }
 
-        @font-face {
-            font-family: "Segoe UI";
-            panose-1: 2 11 5 2 4 2 4 2 2 3;
-        }
-
         /* Style Definitions */
         p.MsoNormal,
         li.MsoNormal,
@@ -169,6 +164,19 @@ for i in range(0, total, 1):
             margin-bottom: .0001pt;
             font-size: 11.0pt;
             font-family: "Calibri", sans-serif;
+            mso-fareast-language: EN-US;
+        }
+
+        h2 {
+            mso-style-priority: 9;
+            mso-style-link: "Heading 2 Char";
+            mso-margin-top-alt: auto;
+            margin-right: 0cm;
+            mso-margin-bottom-alt: auto;
+            margin-left: 0cm;
+            font-size: 18.0pt;
+            font-family: "Calibri", sans-serif;
+            font-weight: bold;
         }
 
         a:link,
@@ -185,10 +193,55 @@ for i in range(0, total, 1):
             text-decoration: underline;
         }
 
+        p {
+            mso-style-priority: 99;
+            mso-margin-top-alt: auto;
+            margin-right: 0cm;
+            mso-margin-bottom-alt: auto;
+            margin-left: 0cm;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", serif;
+        }
+
         span.EmailStyle17 {
             mso-style-type: personal-compose;
             font-family: "Calibri", sans-serif;
             color: windowtext;
+        }
+
+        span.Heading2Char {
+            mso-style-name: "Heading 2 Char";
+            mso-style-priority: 9;
+            mso-style-link: "Heading 2";
+            font-family: "Calibri", sans-serif;
+            mso-fareast-language: EN-IN;
+            font-weight: bold;
+        }
+
+        p.xmsonormal,
+        li.xmsonormal,
+        div.xmsonormal {
+            mso-style-name: xmsonormal;
+            mso-style-priority: 99;
+            mso-margin-top-alt: auto;
+            margin-right: 0cm;
+            mso-margin-bottom-alt: auto;
+            margin-left: 0cm;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", serif;
+        }
+
+        p.xmsoplaintext,
+        li.xmsoplaintext,
+        div.xmsoplaintext {
+            mso-style-name: xmsoplaintext;
+            mso-style-priority: 99;
+            mso-margin-top-alt: auto;
+            margin-right: 0cm;
+            mso-margin-bottom-alt: auto;
+            margin-left: 0cm;
+            font-size: 12.0pt;
+            font-family: "Times New Roman", serif;
         }
 
         .MsoChpDefault {
@@ -217,25 +270,26 @@ for i in range(0, total, 1):
 
 <body lang=EN-IN link="#0563C1" vlink="#954F72">
     <div class=WordSection1>
-        <p class=MsoNormal><b><span lang=EN-US>Dear Linux Customer</span></b><span lang=EN-US>,<o:p></o:p></span></p>
-        <p class=MsoNormal><span lang=EN-US>
-                <o:p>&nbsp;</o:p>
-            </span></p>
-        <p class=MsoNormal><span lang=EN-US>
-                <o:p>&nbsp;</o:p>
-            </span></p>
-        <p class=MsoNormal><span lang=EN-US>Kindly provide 2 hours downtime window to patch the below server(s):<o:p>
-                </o:p></span></p>
-        <p class=MsoNormal><span lang=EN-US>
-                <o:p>&nbsp;</o:p>
-            </span></p>
-        <p class=MsoNormal><span lang=EN-US>
-                <o:p>&nbsp;</o:p>
-            </span></p>
+        <h2>Dear Linux customer, <o:p></o:p>
+        </h2>
+        <p>You are receiving this email because you are registered in our database as a responsible person for a
+            system(s) that has been identified as requiring patching during the second Linux patching cycle.<o:p></o:p>
+        </p>
+        <p>We appreciate your cooperation on this requirement. <o:p></o:p>
+        </p>
+        <p>
+            <o:p>&nbsp;</o:p>
+        </p>
+        <p><span lang=EN-US>Kindly provide 2 hours downtime window to patch the below server(s): <o:p></o:p></span></p>
+        <p class=MsoNormal><b>Affected Systems</b>: <o:p></o:p>
+        </p>
+        <p class=MsoNormal>
+            <o:p>&nbsp;</o:p>
+        </p>
         <table class=MsoNormalTable border=0 cellspacing=0 cellpadding=0 width=0
             style='width:184.0pt;border-collapse:collapse'>
             <tr style='height:14.5pt'>
-                <td width=128 nowrap
+                <td width=156 nowrap
                     style='width:96.0pt;border:solid windowtext 1.0pt;background:#002060;padding:0cm 5.4pt 0cm 5.4pt;height:14.5pt'>
                     <p class=MsoNormal><b><span style='font-size:10.0pt;color:white'>Server Name</span></b><span
                             style='color:white'> </span><b><span style='font-size:10.0pt;color:white'>
@@ -255,39 +309,27 @@ for i in range(0, total, 1):
 
 
     L3 = ["""</table>
-        <p class=MsoNormal><span lang=EN-US>
+        <p class=xmsonormal style='margin-bottom:12.0pt'><span lang=EN-US>
                 <o:p>&nbsp;</o:p>
             </span></p>
-        <p class=MsoNormal><span lang=EN-US>
-                <o:p>&nbsp;</o:p>
-            </span></p>
-        <p class=MsoNormal><span lang=EN-US>
-                <o:p>&nbsp;</o:p>
-            </span></p>
-        <p class=MsoNormal><b><span style='font-size:10.5pt;font-family:"Segoe UI",sans-serif;background:white'>please
-                    update the downtime in patching dash board.</span></b><b><span lang=EN-US>
-                    <o:p></o:p>
-                </span></b></p>
-        <p class=MsoNormal><span lang=EN-US>
-                <o:p>&nbsp;</o:p>
-            </span></p>
-        <p class=MsoNormal><span lang=EN-US>Kindly confirm if application shutdown is automatic or manual.<o:p></o:p>
+        <p class=xmsonormal><span lang=EN-US>Kindly confirm if application shutdown is automatic or manual. <o:p></o:p>
                 </span></p>
-        <p class=MsoNormal><span lang=EN-US>In case of manual shutdown, kindly let us know who will be available to
+        <p class=xmsonormal><span lang=EN-US>In case of manual shutdown, kindly let us know who will be available to
                 stop/start application during the patching window. <o:p></o:p></span></p>
-        <p class=MsoNormal>
-            <o:p>&nbsp;</o:p>
-        </p>
-        <p class=MsoNormal>
-            <o:p>&nbsp;</o:p>
-        </p>
-        <p class=MsoNormal>
-            <o:p>&nbsp;</o:p>
-        </p>
-        <p class=MsoNormal><b>Thanks and Regards</b>, <span lang=EN-US>
+        <p class=xmsonormal>The maximum planned interruption of your system is 2 hours, but we expect that your system
+            will be available earlier. <span lang=EN-US>
                 <o:p></o:p>
             </span></p>
-        <p class=MsoNormal>CCP Linux Patching Team <span lang=EN-US>
+        <p class=xmsonormal>&nbsp; <span lang=EN-US>
+                <o:p></o:p>
+            </span></p>
+        <p class=xmsonormal>&nbsp; <span lang=EN-US>
+                <o:p></o:p>
+            </span></p>
+        <p class=xmsoplaintext><b>Thanks and Regards</b>, <span lang=EN-US>
+                <o:p></o:p>
+            </span></p>
+        <p class=xmsoplaintext>CCP Linux Patching Team <span lang=EN-US>
                 <o:p></o:p>
             </span></p>
         <p class=MsoNormal>
